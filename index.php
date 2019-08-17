@@ -170,7 +170,7 @@ function submitResults()
 	<span class='yy_contentB'>
 
 <?php
-	error_reporting(E_ALL);
+	error_reporting(1);
 	$no = 0;
 	$sql = "SELECT * FROM index_page ORDER BY ontop DESC,id DESC LIMIT 0 , 18 ";
 	$result = mysqli_query($connect,$sql);
