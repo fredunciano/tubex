@@ -11,6 +11,11 @@ $database = 'dbs145883';
 $user_name = 'root';
 $password = 'qwerty';
 $connect = mysqli_connect($host_name, $user_name, $password, $database);
-return $connect
+// return $connect
+if (!mysqli_connect()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}else{
+	 echo "Connect to MySQL: ";
+}
 
 ?>
