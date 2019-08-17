@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
 <?php include("link.php") ?>
 <?php 
-$aa = 'à®°à®œà®¿à®©à®¿à®¯à®¿à®©à¯ à®ªà®¾à®°à®¾à®Ÿà¯à®Ÿà¯à®®à¯ à®•à®£à¯à®Ÿà®©à®®à¯à®®à¯'; 
+$aa = 'தெய்வீகமும் தேசியமும் எனது இரு கண்கள் என்ற திரு. முத்துராமலிங்க தேவர் அவர்களின் கூற்றினைப் போலவே ரஜினியும் இறை நம்பிகையும் இந்திய தேசத்தின் மீது தீராத நம்பிக்கையும் பற்றும் கொண்டவர்.'; 
 	
 	echo $aa;
 ?>
@@ -170,7 +170,7 @@ function submitResults()
 	<span class='yy_contentB'>
 
 <?php
-	error_reporting(1);
+	error_reporting(E_ALL);
 	$no = 0;
 	$sql = "SELECT * FROM index_page ORDER BY ontop DESC,id DESC LIMIT 0 , 18 ";
 	$result = mysqli_query($connect,$sql);
