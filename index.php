@@ -179,7 +179,7 @@ function submitResults()
 	// Fetch the results (Begin loop)
 	$no = 1 + $no;
 	$rs = mysqli_fetch_array($result);
-	print_r($rs);die();
+	// print_r($rs);die();
 	$title1='';
 	$articletitle1='';
 
