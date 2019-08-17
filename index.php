@@ -3,7 +3,7 @@
 <?php 
 $aa = 'à®°à®œà®¿à®©à®¿à®¯à®¿à®©à¯ à®ªà®¾à®°à®¾à®Ÿà¯à®Ÿà¯à®®à¯ à®•à®£à¯à®Ÿà®©à®®à¯à®®à¯'; 
 	
-	echo utf8_decode($aa);
+	echo $aa;
 ?>
 
 <head>
@@ -179,6 +179,7 @@ function submitResults()
 	// Fetch the results (Begin loop)
 	$no = 1 + $no;
 	$rs = mysqli_fetch_array($result);
+	print_r($rs);die();
 	$title1='';
 	$articletitle1='';
 
