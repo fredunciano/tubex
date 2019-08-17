@@ -1,0 +1,58 @@
+P  {}
+
+H1  {}
+
+H2  {}
+
+H3  {}
+
+A  {}
+
+A:Visited  {}
+
+A:Active  {}
+
+A:Hover  {}
+
+BODY  {}
+
+.header1  {
+	font-size : x-small;
+	font-family : Verdana;
+	font-weight : bold;
+	color : #a52a2a;
+}
+
+.smalltext  {
+	font-size : xx-small;
+	font-family : Verdana;
+	color : #703200;
+}
+
+.header2  {
+	font-size : xx-small;
+	font-weight : bold;
+	font-family : Verdana;
+	color : #8b4513;
+}
+
+.flattextbox  {
+	font-size : xx-small;
+	font-family : Verdana;
+	border-style : solid;
+	border-width : thin;
+	border-color : #cd853f;
+}
+
+.flatbutton  {
+	font-size : xx-small;
+	font-family : Verdana;
+	background-color : #708090;
+	color : White;
+	font-weight : bold;
+	border-width : thin;
+}
+
+.pollbg {
+	background-color : #edf2ea
+}

@@ -1,0 +1,13 @@
+Edit Thumbnail Image Size
+-------------------------
+News/Admin/admineditsucc.php
+Line 111
+
+
+Database for News Article
+---------------------------
+Database >Conn.php
+
+Sticky share button - AddThis >> footer1.php
+
+Google analytics >> footer1.php

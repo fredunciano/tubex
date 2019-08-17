@@ -1,0 +1,10 @@
+<?php
+//for login
+$user_hostname = "mysql39.ixwebhosting.com";// The hostname of server
+$user_username = "rajinif_evince";// The username of server
+$user_password = "evince123";// The password of server
+$user_database = "rajinif_evince_rajini";// The database of the tables
+$connect = mysql_connect("$user_hostname", "$user_username", "$user_password");
+mysql_select_db("$user_database", $connect);
+
+?>
